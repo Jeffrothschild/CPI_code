@@ -13,7 +13,7 @@ library(performance)
 
 
 group_data <- read_rds("cpr_data_sample_tbl.rds")
-group_data %>% glimpse()
+group_data %>% glimpse() 
 
 
 # *compliance -----------------------------------------------------------
