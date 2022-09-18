@@ -512,10 +512,13 @@ monotony_bars + monot_examples  +
 
 # *correlation fig --------------------------------------------------------
 
-ex_high_cor_high_range <- 513
-ex_high_cor_low_range <- 508
-ex_low_cor_high_range <- 514
-ex_low_cor_low_range <- 506
+pci_list_tbl %>% 
+    arrange(cor_val)
+
+ex_high_cor_high_range <- 532
+ex_high_cor_low_range <- 551
+ex_low_cor_high_range <- 531
+ex_low_cor_low_range <- 516
 
 diet_train_corr_fig <- pci_list_tbl %>% 
     mutate(
